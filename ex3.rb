@@ -132,6 +132,8 @@ else
   puts "Os valores informados (#{lado1}, #{lado2}, #{lado3}) NÃO formam um triângulo válido."
 end
 
+# teste de alteracao
+
 #Faça um algoritmo que leia uma temperatura em Fahrenheit e calcule a temperatura correspondente em grau Celsius
 
 print "Digite a temperatura em Fahrenheit: "
