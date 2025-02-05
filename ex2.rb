@@ -2,7 +2,7 @@ texto = "otavio,agda,emica,icaro"
 
 nomes = []
 nome_atual = ""
-for idx in 0..texto.length
+for idx in 0..texasdasdasdto.length
   letra = texto[idx]
 
   if letra == ',' || letra == nil
