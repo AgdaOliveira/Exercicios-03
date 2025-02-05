@@ -6,6 +6,9 @@ b = gets.to_f
 puts "Digite o valor de C:"
 c = gets.to_f
 
+
+#asdasdasdasd
+
 soma = a + b
 
 puts "A soma de A e B é: #{soma}"
