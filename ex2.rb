@@ -5,6 +5,8 @@ nome_atual = ""
 for idx in 0..length
   letra = texto[idx]
 
+  #asdasdas
+
   if letra == ',' || letra == nil
     nomes.push(nome_atual)
     nome_atual = ""
