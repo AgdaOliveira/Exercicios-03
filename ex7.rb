@@ -1,3 +1,7 @@
+#Calcule o conceito relativo à nota. 
+#Se a nota for entre 0 e 20, o conceito é "E"; entre 21 e 40, conceito "D"; entre 41 e 60, 
+#conceito "C"; entre 61 e 80, conceito "B"; entre 81 e 100, conceito "A".
+
 puts "Digite uma nota de 0 a 100:"
 nota = gets.chomp.to_i
 
