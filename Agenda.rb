@@ -56,6 +56,20 @@ def editar_contato
       contato[:telefone] = contato[:telefone].empty? ? telefone_salvo : contato[:telefone]
     end 
   end
+  puts "------------------------"
+end
+
+def remover_contato
+  print "Qual nome deseja remover: "
+  nome = gets.chomp
+
+  @agenda.each do |contato|
+    if contato[:nome].downcase == (nome.downcase)
+     indice = @agenda.index(contato)
+     @agenda.delite_at(indice)
+      break
+    end
+  end
 end
 
 loop do
@@ -73,8 +87,10 @@ loop do
       adicionar_contato
     when codigo == 3
       ver_contato
-    whem codigo ==4
+    when codigo == 4
       editar_contato
+    when codigo == 5
+      remover_contato
    end
 
 end
